@@ -20,35 +20,35 @@ This tutorial will guide you through the process of building a simple applicatio
 * Create a new directory for your app: `mkdir my_app`
 * Create a new file `app.py` and add the following code:
 ```python
-from sdk import EcoPulseSDK
-
-sdk = EcoPulseSDK()
-
-# Initialize the app
-sdk.init_app("my_app")
-
-# Define a function to interact with the AI engine
-def predict_data(data):
-    ai_engine = sdk.get_ai_engine()
-    prediction = ai_engine.predict(data)
-    return prediction
-
-# Define a function to interact with the blockchain
-def store_data(data):
-    blockchain = sdk.get_blockchain()
-    blockchain.store_data(data)
-    return True
-
-# Define a function to interact with the data hub
-def retrieve_data():
-    data = data_hub.retrieve_data()
-    return data
-
-# Run the app
-if __name__ == "__main__":
-    predict_data("some_data")
-    store_data("some_data")
-    retrieve_data()
+1. from sdk import EcoPulseSDK
+2. 
+3. sdk = EcoPulseSDK()
+4. 
+5. # Initialize the app
+6. sdk.init_app("my_app")
+7. 
+8. # Define a function to interact with the AI engine
+9. def predict_data(data):
+10.    ai_engine = sdk.get_ai_engine()
+11.    prediction = ai_engine.predict(data)
+12.    return prediction
+13. 
+14. # Define a function to interact with the blockchain
+15. def store_data(data):
+16.    blockchain = sdk.get_blockchain()
+17.    blockchain.store_data(data)
+18.    return True
+19. 
+20. # Define a function to interact with the data hub
+21. def retrieve_data():
+22.    data = data_hub.retrieve_data()
+23.    return data
+24. 
+25. # Run the app
+26. if __name__ == "__main__":
+27.    predict_data("some_data")
+28.    store_data("some_data")
+29.    retrieve_data()
 ```
 
 ### Step 3: Run the App
