@@ -49,6 +49,7 @@ if __name__ == "__main__":
     predict_data("some_data")
     store_data("some_data")
     retrieve_data()
+```
 
 ### Step 3: Run the App
 
