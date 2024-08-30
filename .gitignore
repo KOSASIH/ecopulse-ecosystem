@@ -1,3 +1,29 @@
-# Build folder and log file
-build/
-build.log
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore IDE files
+*.iml
+.idea/
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore SDK build files
+sdk/build/
+
+# Ignore data files
+data/*.csv
+data/*.json
+
+# Ignore other files
+*.tmp
+*.bak
+*.swp
+.DS_Store
